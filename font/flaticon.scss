@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?179108f6bd361e759cbef052513310b2") format("truetype"),
+url("./flaticon.woff?179108f6bd361e759cbef052513310b2") format("woff"),
+url("./flaticon.woff2?179108f6bd361e759cbef052513310b2") format("woff2"),
+url("./flaticon.eot?179108f6bd361e759cbef052513310b2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?179108f6bd361e759cbef052513310b2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "information": "\f101",
+    "old-man": "\f102",
+    "examination": "\f103",
+    "pharmacy": "\f104",
+    "health-check": "\f105",
+    "consultation": "\f106",
+    "medical-assistance": "\f107",
+    "physical-therapy": "\f108",
+    "healthcare-and-medical": "\f109",
+    "nurse": "\f10a",
+    "surgery-room": "\f10b",
+);
+
+.flaticon-information:before {
+    content: map-get($flaticon-map, "information");
+}
+.flaticon-old-man:before {
+    content: map-get($flaticon-map, "old-man");
+}
+.flaticon-examination:before {
+    content: map-get($flaticon-map, "examination");
+}
+.flaticon-pharmacy:before {
+    content: map-get($flaticon-map, "pharmacy");
+}
+.flaticon-health-check:before {
+    content: map-get($flaticon-map, "health-check");
+}
+.flaticon-consultation:before {
+    content: map-get($flaticon-map, "consultation");
+}
+.flaticon-medical-assistance:before {
+    content: map-get($flaticon-map, "medical-assistance");
+}
+.flaticon-physical-therapy:before {
+    content: map-get($flaticon-map, "physical-therapy");
+}
+.flaticon-healthcare-and-medical:before {
+    content: map-get($flaticon-map, "healthcare-and-medical");
+}
+.flaticon-nurse:before {
+    content: map-get($flaticon-map, "nurse");
+}
+.flaticon-surgery-room:before {
+    content: map-get($flaticon-map, "surgery-room");
+}

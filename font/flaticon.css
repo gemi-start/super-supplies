@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?179108f6bd361e759cbef052513310b2") format("truetype"),
+url("./flaticon.woff?179108f6bd361e759cbef052513310b2") format("woff"),
+url("./flaticon.woff2?179108f6bd361e759cbef052513310b2") format("woff2"),
+url("./flaticon.eot?179108f6bd361e759cbef052513310b2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?179108f6bd361e759cbef052513310b2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-information:before {
+    content: "\f101";
+}
+.flaticon-old-man:before {
+    content: "\f102";
+}
+.flaticon-examination:before {
+    content: "\f103";
+}
+.flaticon-pharmacy:before {
+    content: "\f104";
+}
+.flaticon-health-check:before {
+    content: "\f105";
+}
+.flaticon-consultation:before {
+    content: "\f106";
+}
+.flaticon-medical-assistance:before {
+    content: "\f107";
+}
+.flaticon-physical-therapy:before {
+    content: "\f108";
+}
+.flaticon-healthcare-and-medical:before {
+    content: "\f109";
+}
+.flaticon-nurse:before {
+    content: "\f10a";
+}
+.flaticon-surgery-room:before {
+    content: "\f10b";
+}
